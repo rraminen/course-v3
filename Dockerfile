@@ -10,7 +10,7 @@ RUN \
     cd .. && \
     git clone -b fastai-enablement https://github.com/rraminen/fastai.git && \
     cd fastai && \
-    pip install -e ".[dev]" && \
+    pip3 install -e ".[dev]" && \
     cd .. && \
     git clone -b fastai-enablement https://github.com/rraminen/course-v3.git && \
     pip3 install isoweek && \
